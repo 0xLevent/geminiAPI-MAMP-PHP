@@ -1,6 +1,6 @@
 <?php
 session_start();
-$api_key = "AIzaSyA4Uu4bGzMM3TpwqbCcG1syB5UXEDxYqDQ"; // Buraya kendi Gemini API anahtarınızı ekleyin
+$api_key = "Enter your api key"; // Buraya kendi Gemini API anahtarınızı ekleyin
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $question = $_POST['question'];
